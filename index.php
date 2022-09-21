@@ -27,7 +27,7 @@ if( $email != "") {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Login Form</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -36,9 +36,9 @@ if( $email != "") {
         
         <div class="error"> <?php echo $error ?> </div>
 
-        <input type="Email" name="email" class="input-form" placeholder="Enter Email"> <br>
-        <input type="password" name="password" class="input-form" placeholder="Enter Password"> <br>
-        <!-- <input type="text" class="input-form" placeholder="Enter Phone"> -->
+         <input type="Email" name="email" class="input-form" placeholder="Enter Email"> <br>
+         <input type="password" name="password" class="input-form" placeholder="Enter Password"> <br>
+         <!-- <input type="text" class="input-form" placeholder="Enter Phone"> -->
         <input type="submit" class="input-buttom" value="Save">
     </form>
 </body>
