@@ -1,0 +1,50 @@
+html {
+    background: #cccccc;
+}
+
+.form-body
+ {
+    padding: 40px;
+    background: #12a5804b;
+    width: 24%;
+    margin-left: 33%;
+    margin-top: 10%;
+    border-radius: 8px;
+ }
+
+ .form-body .input-form {
+    width: 300px;
+    margin-bottom: 5px;
+    border:none;
+    height: 30px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+    /* padding:2px; */
+ }
+
+ .form-body .input-buttom {
+   border:none;
+   width: 90px;
+   background: #0d4aa7;
+   border-radius: 5px;
+   color: white;
+   height: 30px;
+ }
+ .form-body .logo {
+   margin-bottom: 20%;
+   margin-left: 40%;
+   font-size: 30px;
+ }
+ .form-body .logo .firstSelable {
+
+   color: #0da2a7;
+   font-family: monospace;
+   font-size: 40px;
+
+ }
+ .error {
+   color: rgb(175, 14, 14);
+   padding: 20px;
+ }
